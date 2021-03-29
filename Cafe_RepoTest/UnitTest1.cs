@@ -33,7 +33,7 @@ namespace Cafe_RepoTest
             //adding to the repo(menu)
             repository.AddMealToDirectory(menu);
             //act
-            //store list of streaming content w/n a variable
+            //store list of meals w/n a variable
             List<Menu> menuList = repository.ViewFullMenu();
             //looks through our entire list and returns true if there is content
             bool directoryHasMeals = menuList.Contains(menu);

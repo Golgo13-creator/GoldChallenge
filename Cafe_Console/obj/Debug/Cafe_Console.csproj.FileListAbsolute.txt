@@ -1,0 +1,10 @@
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\bin\Debug\Cafe_Console.exe.config
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\bin\Debug\Cafe_Console.exe
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\bin\Debug\Cafe_Console.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\bin\Debug\Cafe_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\bin\Debug\Cafe_Repository.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\obj\Debug\Cafe_Console.csprojAssemblyReference.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\obj\Debug\Cafe_Console.csproj.CoreCompileInputs.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\obj\Debug\Cafe_Console.csproj.CopyComplete
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\obj\Debug\Cafe_Console.exe
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Console\obj\Debug\Cafe_Console.pdb

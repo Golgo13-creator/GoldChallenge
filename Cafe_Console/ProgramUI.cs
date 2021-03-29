@@ -12,6 +12,7 @@ namespace Cafe_Console
         private readonly CafeRepository _cafeRepository = new CafeRepository();
         public void Run()
         {
+            SeedMealList();
             RunMenu();
         }
         private void RunMenu()
@@ -20,7 +21,7 @@ namespace Cafe_Console
             while(continueToRun)
             {
                 Console.Clear();
-                Console.WriteLine("Enter the option selection number:\n" +
+                Console.WriteLine("\n\nEnter the option selection number:\n\n" +
                     "1. Add a meal to menu\n" +
                     "2. View full menu\n" +
                     "3. View meal by number\n" +
@@ -43,7 +44,7 @@ namespace Cafe_Console
                         break;
                     case "4":
                         //delete meal from menu
-
+                        RemoveMealFromMenuByNumber();
                         break;
                     case "5":
                         //exit
@@ -62,8 +63,8 @@ namespace Cafe_Console
         {
             Console.Clear();
             Menu menu = new Menu();
-            Console.WriteLine("Welcome to the Cafe Menu Page\n" +
-                "Please enter Meal Number:");
+            Console.WriteLine("\n\nWelcome to the Cafe Menu Page\n" +
+                "\nPlease enter Meal Number:");
             menu.MealNumber = int.Parse(Console.ReadLine());
             Console.WriteLine("Please enter a name for the meal:");
             menu.MealName = Console.ReadLine();
@@ -120,13 +121,14 @@ namespace Cafe_Console
         private void RemoveMealFromMenuByNumber()
         {
             Console.Clear();
-            Console.WriteLine("Which meal would you like to remove");
+            Console.WriteLine("\nWhich meal would you like to remove?" +
+                "\nPlease enter a number");
             List<Menu> mealList = _cafeRepository.ViewFullMenu();
             int count = 0;
             foreach (Menu meal in mealList)
             {
                 count++;
-                Console.WriteLine($"{count} {meal.MealNumber}");
+                Console.WriteLine($"{count} {meal.MealName}");
             }
             int targetMealNumber = int.Parse(Console.ReadLine());
             int targetIndex = targetMealNumber - 1;
@@ -152,8 +154,13 @@ namespace Cafe_Console
         private void SeedMealList()
         {
             //new menu items
-
+            Menu carrotCake = new Menu(1, "Carrot Cake", "Freshly made carrot cake w/o nuts", "eggs, icing, mix, love", 2.99m);
+            Menu schnitzel = new Menu(2, "Schnitzel", "Breaded turkey breast", "turkey breast, eggs, batter", 4.99m);
+            Menu pommesFrites = new Menu(3, "Pommes Frites", "Fries perfect alone or as a side", "potatoes, peanut oil, salt, pepper", 1.99m);
             //_caferepo add to dir 
+            _cafeRepository.AddMealToDirectory(carrotCake);
+            _cafeRepository.AddMealToDirectory(schnitzel);
+            _cafeRepository.AddMealToDirectory(pommesFrites);
         }
     }
 }
