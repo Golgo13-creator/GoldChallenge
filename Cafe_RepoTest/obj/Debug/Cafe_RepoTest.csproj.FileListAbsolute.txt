@@ -1,0 +1,16 @@
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Cafe_RepoTest.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Cafe_RepoTest.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Cafe_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Cafe_Repository.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\obj\Debug\Cafe_RepoTest.csprojAssemblyReference.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\obj\Debug\Cafe_RepoTest.csproj.CoreCompileInputs.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\obj\Debug\Cafe_RepoTest.csproj.CopyComplete
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\obj\Debug\Cafe_RepoTest.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_RepoTest\obj\Debug\Cafe_RepoTest.pdb

@@ -1,0 +1,6 @@
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Repository\bin\Debug\Cafe_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Repository\bin\Debug\Cafe_Repository.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Repository\obj\Debug\Cafe_Repository.csprojAssemblyReference.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Repository\obj\Debug\Cafe_Repository.csproj.CoreCompileInputs.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Repository\obj\Debug\Cafe_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Cafe_Repository\obj\Debug\Cafe_Repository.pdb
