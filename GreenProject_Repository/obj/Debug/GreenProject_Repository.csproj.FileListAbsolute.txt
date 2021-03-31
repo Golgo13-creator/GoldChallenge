@@ -1,0 +1,6 @@
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\bin\Debug\GreenProject_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\bin\Debug\GreenProject_Repository.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debug\GreenProject_Repository.csprojAssemblyReference.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debug\GreenProject_Repository.csproj.CoreCompileInputs.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debug\GreenProject_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debug\GreenProject_Repository.pdb
