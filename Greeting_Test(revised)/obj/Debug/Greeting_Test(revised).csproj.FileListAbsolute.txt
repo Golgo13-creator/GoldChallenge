@@ -1,0 +1,16 @@
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Greeting_Test(revised).dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Greeting_Test(revised).pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Greeting_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Greeting_Repository.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\obj\Debug\Greeting_Test(revised).csprojAssemblyReference.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\obj\Debug\Greeting_Test(revised).csproj.CoreCompileInputs.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\obj\Debug\Greeting_Test(revised).csproj.CopyComplete
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\obj\Debug\Greeting_Test(revised).dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Test(revised)\obj\Debug\Greeting_Test(revised).pdb
