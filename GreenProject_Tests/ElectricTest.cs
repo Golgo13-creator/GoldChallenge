@@ -47,7 +47,7 @@ namespace GreenProject_Tests
             //arrange
             Electric newElectric = new Electric("Tesla","Model 3", "30kWh/100mi");
             //act
-            bool updateElectric = _repo.UpdateExistingElectric("Tesla", newElectric);
+            bool updateElectric = _repo.UpdateExistingElectric("Model 3", newElectric);
             //assert
             Assert.IsTrue(updateElectric);
         }
@@ -56,9 +56,9 @@ namespace GreenProject_Tests
         public void RemoveHybridFromList_ShouldReturnTrue()
         {
             //arrange
-            Electric electric = _repo.GetElectricByMake("Tesla");
+            Electric electric = _repo.GetElectricByModel("Model 3");
             //act
-            bool removeHybrid = _repo.RemoveElectricFromList("Tesla");
+            bool removeHybrid = _repo.RemoveElectricFromList("Model 3");
             //assert
             Assert.IsTrue(removeHybrid);
         }
@@ -71,11 +71,11 @@ namespace GreenProject_Tests
         }
         [TestMethod]
         //helper
-        public void GetElectricByMake_ShouldReturnCorrectMake()
+        public void GetElectricByModel_ShouldReturnCorrectMake()
         {
             //arrange ->done above
             //act
-            Electric searchResult = _repo.GetElectricByMake("Tesla");
+            Electric searchResult = _repo.GetElectricByModel("Model 3");
             //assert
             Assert.AreEqual(_electric, searchResult);
         }

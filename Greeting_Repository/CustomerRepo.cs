@@ -17,18 +17,13 @@ namespace Greeting_Repository
             bool wasAdded = (_customerDir.Count > StartingCount) ? true : false;
             return wasAdded;
         }
-        //read 
+        //read  in alphabetical order
         public List<Customer> GetCustomer()
         {
             //order list ascending
             return _customerDir;
         }
-        //read in alphabetical order
-        public List<Customer> GetCustomerAlphabetically()
-        {
-            //order list ascending
-            return _customerDir;
-        }
+        //helper
         public Customer GetCustomerByFirstName(string firstName)
         {
             foreach(Customer customer in _customerDir)
@@ -57,27 +52,23 @@ namespace Greeting_Repository
             }
         }
         //delete
-        public bool DeleteExistingCustomer(Customer existingCustomer)
+        public bool DeleteExistingCustomer(string existingCustomer)
         {
-            bool deleteCustomer = _customerDir.Remove(existingCustomer);
-            return deleteCustomer;
-        }
-        //may need to be sent to the programUI
-        public void MessageToCustomer(Customer customer)
-        {
-            if (customer.CustomerTypecast == CustomerType.Potential)
+            Customer customer = GetCustomerByFirstName(existingCustomer);
+            if(customer == null)
             {
-                Console.WriteLine("We currently have the lowest rates on Helicopter Insurance!");
+                return false;
             }
-            else if (customer.CustomerTypecast == CustomerType.Current)
+            int initialCount = _customerDir.Count;
+            _customerDir.Remove(customer);
+            if(initialCount > _customerDir.Count)
             {
-                Console.WriteLine("Thank you for your work with us. We appreciate your loyalty. Here's a coupon.");
+                return true;
             }
-            else if (customer.CustomerTypecast == CustomerType.Past)
+            else
             {
-                Console.WriteLine("It's been a long time since we've heard from you, we want you back.");
+                return false;
             }
-        }
-        
+        } 
     }
 }

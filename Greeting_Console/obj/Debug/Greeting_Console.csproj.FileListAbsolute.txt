@@ -1,0 +1,12 @@
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\bin\Debug\Greeting_Console.exe.config
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\bin\Debug\Greeting_Console.exe
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\bin\Debug\Greeting_Console.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\bin\Debug\Greeting_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\bin\Debug\Greeting_Repository.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\obj\Debug\Greeting_Console.csprojAssemblyReference.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\obj\Debug\Greeting_Console.csproj.CoreCompileInputs.cache
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\obj\Debug\Greeting_Console.csproj.CopyComplete
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\obj\Debug\Greeting_Console.exe
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\obj\Debug\Greeting_Console.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\bin\Debug\ConsoleTables.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\Greeting_Console\bin\Debug\ConsoleTables.pdb

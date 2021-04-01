@@ -20,6 +20,7 @@ namespace KomodoClaims_Tests
             //Assert
             Assert.IsTrue(addResult);
         }
+        //Read
         [TestMethod]
         public void ViewAllClaims_ShouldReturnAllClaimsInQueue()
         {
@@ -37,15 +38,16 @@ namespace KomodoClaims_Tests
             //assert
             Assert.IsTrue(queueHasClaims);
         }
+        //Delete
         [TestMethod]
         public void TakeCareOfNextClaim_ShouldReturnTrue()
         {
             //Arrange
             Claim claim = _repo.GetClaimById(1);
             //Act
-            Claim removeResult = ;
+            bool removeResult = _repo.TakeCareOfNextClaim(claim);
             //Assert
-            
+            Assert.IsTrue(claim);
         }
         private ClaimRepo _repo;
         private Claim _claim;
@@ -55,7 +57,7 @@ namespace KomodoClaims_Tests
             _repo = new ClaimRepo();
             _claim = new Claim(1, TypeOfClaim.Car,
                 "Car accident on 465", 400.00m,
-                 04 / 25 / 2018, 04 / 27 / 2018, true);
+                 "04/25/2018", "04/27/2018", true);
             _repo.AddAClaimToQueue(_claim);
         }
         [TestMethod]

@@ -50,5 +50,11 @@
     <Compile Include="ICar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Greeting_Console\Greeting_Console.csproj">
+      <Project>{a969cb4e-bfa0-4450-a250-74df4405443d}</Project>
+      <Name>Greeting_Console</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

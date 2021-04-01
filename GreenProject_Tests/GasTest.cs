@@ -47,7 +47,7 @@ namespace GreenProject_Tests
             //arrange
             Gas newGas = new Gas("GMC", "Sierra", "17 miles per gallon");
             //act
-            bool updateGas = _repo.UpdateExistingGas("GMC", newGas);
+            bool updateGas = _repo.UpdateExistingGas("Sierra", newGas);
             //assert
             Assert.IsTrue(updateGas);
         }
@@ -56,9 +56,9 @@ namespace GreenProject_Tests
         public void RemoveHybridFromList_ShouldReturnTrue()
         {
             //arrange
-            Gas gas = _repo.GetGasByMake("GMC");
+            Gas gas = _repo.GetGasByModel("Sierra");
             //act
-            bool removeGas = _repo.RemoveGasFromList("GMC");
+            bool removeGas = _repo.RemoveGasFromList("Sierra");
             //assert
             Assert.IsTrue(removeGas);
         }
@@ -71,11 +71,11 @@ namespace GreenProject_Tests
         }
         [TestMethod]
         //helper
-        public void GetGasByMake_ShouldReturnCorrectMake()
+        public void GetGasByModel_ShouldReturnCorrectMake()
         {
             //arrange ->done above
             //act
-            Gas searchResult = _repo.GetGasByMake("GMC");
+            Gas searchResult = _repo.GetGasByModel("Sierra");
             //assert
             Assert.AreEqual(_gas, searchResult);
         }

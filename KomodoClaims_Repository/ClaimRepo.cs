@@ -23,10 +23,10 @@ namespace KomodoClaims_Repository
             return _claims;
         }
         //remove
-        public void TakeCareOfNextClaim(Claim existingclaim)
+        public void TakeCareOfNextClaim(Claim existingClaim)
         {
-            Claim removeClaim = _claims.Dequeue();
-            Console.WriteLine($"{existingclaim} has been removed from the queue."); 
+            Claim dequeueClaim = _claims.Dequeue();
+            
         }
         public Claim GetClaimById(int number)
         {

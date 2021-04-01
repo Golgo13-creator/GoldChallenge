@@ -55,7 +55,6 @@ namespace Cafe_Console
                             "Press any key to continue");
                         Console.ReadKey();
                         break;
-
                 }
             }
         }
@@ -74,7 +73,6 @@ namespace Cafe_Console
             menu.Ingredients = Console.ReadLine();
             Console.WriteLine("Please enter the meal price");
             menu.Price = decimal.Parse(Console.ReadLine());
-
             _cafeRepository.AddMealToDirectory(menu);
         }
         private void ViewAllMeals()

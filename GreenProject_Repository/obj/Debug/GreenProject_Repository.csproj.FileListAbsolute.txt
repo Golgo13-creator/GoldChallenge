@@ -4,3 +4,9 @@ C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debu
 C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debug\GreenProject_Repository.csproj.CoreCompileInputs.cache
 C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debug\GreenProject_Repository.dll
 C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debug\GreenProject_Repository.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\bin\Debug\Greeting_Console.exe
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\bin\Debug\Greeting_Repository.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\bin\Debug\Greeting_Console.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\bin\Debug\Greeting_Console.exe.config
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\bin\Debug\Greeting_Repository.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Repository\obj\Debug\GreenProject_Repository.csproj.CopyComplete

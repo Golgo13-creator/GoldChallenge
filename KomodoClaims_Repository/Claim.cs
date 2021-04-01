@@ -14,20 +14,20 @@ namespace KomodoClaims_Repository
         public string Description { get; set; }
         public decimal ClaimAmount { get; set; }
         //fix date properties
-        DateTime DateOfIncident = DateTime.Now;
-        DateTime DateOfClaim = DateTime.Now;
+        public string DateOfIncident { get; set; }
+        public string DateOfClaim { get; set; }
         public bool IsValid { get; set; }
         public Claim()
         {
                 
         }
-        public Claim(int claimID, TypeOfClaim claimType, string description, decimal claimAmount, DateTime dateOfIncident, DateTime dateOfClaim, bool isValid)
+        public Claim(int claimID, TypeOfClaim claimType, string description, decimal claimAmount, string dateOfIncident, string dateOfClaim, bool isValid)
         {
             ClaimID = claimID;
             ClaimType = claimType;
             Description = description;
             ClaimAmount = claimAmount;
-            DateOfIncident = dateOfClaim;
+            DateOfIncident = dateOfIncident;
             DateOfClaim = dateOfClaim;
             IsValid = isValid;
         }

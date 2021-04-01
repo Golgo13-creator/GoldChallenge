@@ -75,7 +75,7 @@ namespace Customer_Test
             //Arrange
             Customer customer = _repo.GetCustomerByFirstName("Kanye");
             //Act
-            bool removeCustomer = _repo.DeleteExistingCustomer(customer);
+            bool removeCustomer = _repo.DeleteExistingCustomer("Kanye");
             //Assert
             Assert.IsTrue(removeCustomer);
         }

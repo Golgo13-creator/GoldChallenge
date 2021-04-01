@@ -20,9 +20,9 @@ namespace GreenProject_Repository
         {
             return _listofGas;
         }
-        public bool UpdateExistingGas(string originalMake, Gas newGas)
+        public bool UpdateExistingGas(string originalModel, Gas newGas)
         {
-            Gas oldGas = GetGasByMake(originalMake);
+            Gas oldGas = GetGasByModel(originalModel);
 
             if (oldGas != null)
             {
@@ -36,9 +36,9 @@ namespace GreenProject_Repository
                 return false;
             }
         }
-        public bool RemoveGasFromList(string make)
+        public bool RemoveGasFromList(string model)
         {
-            Gas gas = GetGasByMake(make);
+            Gas gas = GetGasByModel(model);
             if (gas == null)
             {
                 return false;
@@ -55,11 +55,11 @@ namespace GreenProject_Repository
             }
         }
         //helper
-        public Gas GetGasByMake(string make)
+        public Gas GetGasByModel(string model)
         {
             foreach (Gas gas in _listofGas)
             {
-                if (gas.Make.ToLower() == make.ToLower())
+                if (gas.Model.ToLower() == model.ToLower())
                 {
                     return gas;
                 }

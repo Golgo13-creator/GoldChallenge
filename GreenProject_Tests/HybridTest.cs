@@ -44,7 +44,7 @@ namespace GreenProject_Tests
             //arrange
             Hybrid newHybrid = new Hybrid("Honda", "Insight", "48 miles per gallon");
             //act
-            bool updateHybrid = _repo.UpdateExistingHybrids("Honda", newHybrid);
+            bool updateHybrid = _repo.UpdateExistingHybrids("Insight", newHybrid);
             //assert
             Assert.IsTrue(updateHybrid);
         }
@@ -53,9 +53,9 @@ namespace GreenProject_Tests
         public void RemoveHybridFromList_ShouldReturnTrue()
         {
             //arrange
-            Hybrid hybrid = _repo.GetHybridByMake("Honda");
+            Hybrid hybrid = _repo.GetHybridByModel("Insight");
             //act
-            bool removeHybrid = _repo.RemoveHybridFromList("Honda");
+            bool removeHybrid = _repo.RemoveHybridFromList("Insight");
             //assert
             Assert.IsTrue(removeHybrid);
         }
@@ -72,7 +72,7 @@ namespace GreenProject_Tests
         {
             //arrange ->done above
             //act
-            Hybrid searchResult = _repo.GetHybridByMake("Honda");
+            Hybrid searchResult = _repo.GetHybridByModel("Insight");
             //assert
             Assert.AreEqual(_hybrid, searchResult);
         }

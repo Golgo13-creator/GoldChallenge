@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Greeting_Repository
 {
-    public enum CustomerType { Potential, Current, Past}
+    public enum CustomerType { Potential, Current, Past }
     public class Customer
     {
         public string FirstName { get; set; }
@@ -31,10 +31,7 @@ namespace Greeting_Repository
                 return null;
             }
         }
-        public Customer()
-        {
-
-        }
+        public Customer() { }
         public Customer(string firstName, string lastName, CustomerType customerTypecast)
         {
             FirstName = firstName;

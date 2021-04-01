@@ -101,7 +101,7 @@ namespace GreenProject_Console
                         Console.WriteLine("Please enter a valid number");
                         break;
                 }
-                Console.WriteLine("Please press any key to continue");
+                Console.WriteLine("\nPlease press any key to continue");
                 Console.ReadKey();
                 Console.Clear();
             }
@@ -116,7 +116,6 @@ namespace GreenProject_Console
             newHybrid.Model = Console.ReadLine();
             Console.WriteLine("Enter fuel efficiency information");
             newHybrid.FuelEfficiency = Console.ReadLine();
-
             hybrid_Repo.AddHybridToList(newHybrid);
         }
         private void GetListOfHybrids()
@@ -133,8 +132,9 @@ namespace GreenProject_Console
         private void UpdateHybrid()
         {
             GetListOfHybrids();
-            Console.WriteLine("Enter the Make of the hybrid to be updated");
-            string oldMake = Console.ReadLine();
+            Console.WriteLine("\nEnter the Model of the hybrid to be updated");
+            Hybrid hybrid = new Hybrid();
+            string oldModel = Console.ReadLine();
             Console.Clear();
             Hybrid newHybrid = new Hybrid();
             Console.WriteLine("Enter the Make");
@@ -143,8 +143,7 @@ namespace GreenProject_Console
             newHybrid.Model = Console.ReadLine();
             Console.WriteLine("Enter fuel efficiency information");
             newHybrid.FuelEfficiency = Console.ReadLine();
-
-            bool wasUpdated = hybrid_Repo.UpdateExistingHybrids(oldMake, newHybrid);
+            bool wasUpdated = hybrid_Repo.UpdateExistingHybrids(oldModel, newHybrid);
             if(wasUpdated)
             {
                 Console.WriteLine("Hybrid updated!");
@@ -158,7 +157,7 @@ namespace GreenProject_Console
         private void RemoveHybrid()
         {
             GetListOfHybrids();
-            Console.WriteLine("Enter the Make of the hybrid to be removed");
+            Console.WriteLine("\nEnter the Model of the hybrid to be removed");
             string input = Console.ReadLine();
             bool wasDeleted = hybrid_Repo.RemoveHybridFromList(input);
             if(wasDeleted)
@@ -174,9 +173,9 @@ namespace GreenProject_Console
         {
             Console.Clear();
             Console.WriteLine("\nEnter Make of Hybrid");
-            string make = Console.ReadLine();
-            Hybrid hybrid = hybrid_Repo.GetHybridByMake(make);
-            if(make != null)
+            string model = Console.ReadLine();
+            Hybrid hybrid = hybrid_Repo.GetHybridByModel(model);
+            if(model != null)
             {
                 Console.WriteLine($"Make: {hybrid.Make}\n" +
                                   $"Model: {hybrid.Model}\n" +
@@ -193,7 +192,6 @@ namespace GreenProject_Console
             newElectric.Model = Console.ReadLine();
             Console.WriteLine("Enter fuel efficiency information");
             newElectric.FuelEfficiency = Console.ReadLine();
-
             electric_Repo.AddElectricToList(newElectric);
         }
         private void GetListOfElectric()
@@ -210,8 +208,8 @@ namespace GreenProject_Console
         private void UpdateElectric()
         {
             GetListOfElectric();
-            Console.WriteLine("Enter the Make of the electric car to be updated");
-            string oldMake = Console.ReadLine();
+            Console.WriteLine("\nEnter the Model of the electric car to be updated");
+            string oldModel = Console.ReadLine();
             Console.Clear();
             Electric newElectric = new Electric();
             Console.WriteLine("Enter the Make");
@@ -220,8 +218,7 @@ namespace GreenProject_Console
             newElectric.Model = Console.ReadLine();
             Console.WriteLine("Enter fuel efficiency information");
             newElectric.FuelEfficiency = Console.ReadLine();
-
-            bool wasUpdated = electric_Repo.UpdateExistingElectric(oldMake, newElectric);
+            bool wasUpdated = electric_Repo.UpdateExistingElectric(oldModel, newElectric);
             if (wasUpdated)
             {
                 Console.WriteLine("Electric Car updated!");
@@ -234,7 +231,7 @@ namespace GreenProject_Console
         private void RemoveElectric()
         {
             GetListOfElectric();
-            Console.WriteLine("Enter the Make of the electric car to be removed");
+            Console.WriteLine("\nEnter the Model of the electric car to be removed");
             string input = Console.ReadLine();
             bool wasDeleted = electric_Repo.RemoveElectricFromList(input);
             if (wasDeleted)
@@ -249,10 +246,10 @@ namespace GreenProject_Console
         private void ViewElectricDetails()
         {
             Console.Clear();
-            Console.WriteLine("\nEnter Make of Electric Car");
-            string make = Console.ReadLine();
-            Electric electric = electric_Repo.GetElectricByMake(make);
-            if (make != null)
+            Console.WriteLine("\nEnter Model of Electric Car");
+            string model = Console.ReadLine();
+            Electric electric = electric_Repo.GetElectricByModel(model);
+            if (model != null)
             {
                 Console.WriteLine($"Make: {electric.Make}\n" +
                                   $"Model: {electric.Model}\n" +
@@ -269,7 +266,6 @@ namespace GreenProject_Console
             newGas.Model = Console.ReadLine();
             Console.WriteLine("Enter fuel efficiency information");
             newGas.FuelEfficiency = Console.ReadLine();
-
             gas_Repo.AddGasToList(newGas);
         }
         private void GetListOfGas()
@@ -286,8 +282,8 @@ namespace GreenProject_Console
         private void UpdateGas()
         {
             GetListOfGas();
-            Console.WriteLine("Enter the Make of the gas car to be updated");
-            string oldMake = Console.ReadLine();
+            Console.WriteLine("\nEnter the Model of the gas car to be updated");
+            string oldModel = Console.ReadLine();
             Console.Clear();
             Gas newGas = new Gas();
             Console.WriteLine("Enter the Make");
@@ -296,8 +292,7 @@ namespace GreenProject_Console
             newGas.Model = Console.ReadLine();
             Console.WriteLine("Enter fuel efficiency information");
             newGas.FuelEfficiency = Console.ReadLine();
-
-            bool wasUpdated = gas_Repo.UpdateExistingGas(oldMake, newGas);
+            bool wasUpdated = gas_Repo.UpdateExistingGas(oldModel, newGas);
             if (wasUpdated)
             {
                 Console.WriteLine("Gas Car updated!");
@@ -310,7 +305,7 @@ namespace GreenProject_Console
         private void RemoveGas()
         {
             GetListOfGas();
-            Console.WriteLine("Enter the Make of the gas car to be removed");
+            Console.WriteLine("\nEnter the Model of the gas car to be removed");
             string input = Console.ReadLine();
             bool wasDeleted = gas_Repo.RemoveGasFromList(input);
             if (wasDeleted)
@@ -325,10 +320,10 @@ namespace GreenProject_Console
         private void ViewGasDetails()
         {
             Console.Clear();
-            Console.WriteLine("\nEnter Make of Gas Car");
-            string make = Console.ReadLine();
-            Gas gas = gas_Repo.GetGasByMake(make);
-            if (make != null)
+            Console.WriteLine("\nEnter Model of Gas Car");
+            string model = Console.ReadLine();
+            Gas gas = gas_Repo.GetGasByModel(model);
+            if (model != null)
             {
                 Console.WriteLine($"Make: {gas.Make}\n" +
                                   $"Model: {gas.Model}\n" +
@@ -340,7 +335,6 @@ namespace GreenProject_Console
             Hybrid hybridA = new Hybrid("Honda", "Insight", "48-52 miles per gallon");
             Hybrid hybridB = new Hybrid("Ford", "Escape", "40-41 miles per gallon");
             Hybrid hybridC = new Hybrid("Toyota", "Highlander Hybrid", "35-36 miles per gallon");
-            
 
             hybrid_Repo.AddHybridToList(hybridA);
             hybrid_Repo.AddHybridToList(hybridB);
@@ -354,7 +348,6 @@ namespace GreenProject_Console
             electric_Repo.AddElectricToList(electricB);
             electric_Repo.AddElectricToList(electricC);
             
-
             Gas gasA = new Gas("Ram", "1500", "12-23 miles per gallon");
             Gas gasB = new Gas("GMC", "Sierra", "12-23 miles per gallon");
             Gas gasC = new Gas("Honda", "Ridgeline", "17-24 miles per gallon");

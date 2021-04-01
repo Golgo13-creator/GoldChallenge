@@ -20,9 +20,9 @@ namespace GreenProject_Repository
         {
             return _listofElectric;
         }
-        public bool UpdateExistingElectric(string originalMake, Electric newElectric)
+        public bool UpdateExistingElectric(string originalModel, Electric newElectric)
         {
-            Electric oldElectric = GetElectricByMake(originalMake);
+            Electric oldElectric = GetElectricByModel(originalModel);
 
             if (oldElectric != null)
             {
@@ -36,9 +36,9 @@ namespace GreenProject_Repository
                 return false;
             }
         }
-        public bool RemoveElectricFromList(string make)
+        public bool RemoveElectricFromList(string model)
         {
-            Electric electric = GetElectricByMake(make);
+            Electric electric = GetElectricByModel(model);
             if (electric == null)
             {
                 return false;
@@ -55,11 +55,11 @@ namespace GreenProject_Repository
             }
         }
         //helper
-        public Electric GetElectricByMake(string make)
+        public Electric GetElectricByModel(string model)
         {
             foreach (Electric electric in _listofElectric)
             {
-                if (electric.Make.ToLower() == make.ToLower())
+                if (electric.Model.ToLower() == model.ToLower())
                 {
                     return electric;
                 }

@@ -8,3 +8,7 @@ C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Console\obj\Debug\G
 C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Console\obj\Debug\GreenProject_Console.csproj.CopyComplete
 C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Console\obj\Debug\GreenProject_Console.exe
 C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Console\obj\Debug\GreenProject_Console.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Console\bin\Debug\ConsoleTables.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Console\bin\Debug\ConsoleTables.pdb
+C:\Users\laama\source\repos\GoldBadgeChallenges\GreenProject_Console\bin\Debug\Newtonsoft.Json.xml

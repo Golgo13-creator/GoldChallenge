@@ -20,9 +20,9 @@ namespace GreenProject_Repository
         {
             return _listofHybrids;
         }
-        public bool UpdateExistingHybrids(string originalMake, Hybrid newHybrid)
+        public bool UpdateExistingHybrids(string originalModel, Hybrid newHybrid)
         {
-            Hybrid oldHybrid = GetHybridByMake(originalMake);
+            Hybrid oldHybrid = GetHybridByModel(originalModel);
 
             if(oldHybrid != null)
             {
@@ -36,9 +36,9 @@ namespace GreenProject_Repository
                 return false;
             }
         }
-        public bool RemoveHybridFromList(string make)
+        public bool RemoveHybridFromList(string model)
         {
-            Hybrid hybrid = GetHybridByMake(make);
+            Hybrid hybrid = GetHybridByModel(model);
             if(hybrid == null)
             {
                 return false;
@@ -55,11 +55,11 @@ namespace GreenProject_Repository
             }
         }
         //helper
-        public Hybrid GetHybridByMake(string make)
+        public Hybrid GetHybridByModel(string model)
         {
             foreach(Hybrid hybrid in _listofHybrids)
             {
-                if(hybrid.Make.ToLower() == make.ToLower())
+                if(hybrid.Model.ToLower() == model.ToLower())
                 { 
                     return hybrid; 
                 }
